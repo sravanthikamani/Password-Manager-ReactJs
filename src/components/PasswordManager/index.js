@@ -218,7 +218,7 @@ class PasswordManager extends Component {
                     type="button"
                     className="delete-btn"
                     onClick={() => this.deleteItem(eachValue.id)}
-                    testid="delete"
+                    data-testid="delete"
                   >
                     <img
                       src="https://assets.ccbp.in/frontend/react-js/password-manager-delete-img.png"
